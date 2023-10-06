@@ -1,0 +1,11 @@
+@Metadata.layer: #INDUSTRY
+annotate view ZB_11_ALFA02 
+    with 
+{
+    @UI.dataPoint.title : 'MDE Industry Title - Material Code'
+    @UI.dataPoint.description : 'MDE Industry Description - Material Code'
+    MATERIAL;
+    @UI.dataPoint.title : 'MDE Industry Title - Maintenance Status'
+    @UI.dataPoint.description : 'MDE Industry Description - Maintenance Status'
+    MAINTENANCESTATUS;
+}

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZA23_ID_FAMILIAR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZA23_ID_FAMILIAR</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>12</SCRLEN3>
+    <DDTEXT>ID FAMILY</DDTEXT>
+    <REPTEXT>ID Family</REPTEXT>
+    <SCRTEXT_S>ID Family</SCRTEXT_S>
+    <SCRTEXT_M>ID Family</SCRTEXT_M>
+    <SCRTEXT_L>ID Family</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>ID Familiar</DDTEXT>
+     <REPTEXT>ID Familiar</REPTEXT>
+     <SCRTEXT_S>ID Fam</SCRTEXT_S>
+     <SCRTEXT_M>ID Familiar</SCRTEXT_M>
+     <SCRTEXT_L>ID Familiar</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

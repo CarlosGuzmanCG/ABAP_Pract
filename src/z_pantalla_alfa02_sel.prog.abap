@@ -1,0 +1,123 @@
+*&---------------------------------------------------------------------*
+*& Include          Z_PANTALLA_ALFA02_SEL
+*&---------------------------------------------------------------------*
+
+SELECTION-SCREEN BEGIN OF BLOCK ADD1 WITH FRAME TITLE TEXT-T01.
+
+SELECTION-SCREEN SKIP.
+
+  SELECTION-SCREEN SKIP.
+
+SELECTION-SCREEN BEGIN OF BLOCK ADD7 WITH FRAME TITLE TEXT-T07.
+
+*Tipo proceso CRUD
+PARAMETERS: P_CREATE RADIOBUTTON GROUP CRUD,  " create -Alta empleado
+            P_READ   RADIOBUTTON GROUP CRUD,  " Read - Visualizar empleado.
+            P_Update RADIOBUTTON GROUP CRUD,  " Update - Actualizar.
+            P_DELETE RADIOBUTTON GROUP CRUD,  " Delete - Eliinar
+            P_MODIFY RADIOBUTTON GROUP CRUD.  " Modify - Modificar   Insert <-> Update
+
+SELECTION-SCREEN END OF BLOCK ADD7.
+
+SELECTION-SCREEN SKIP.
+
+SELECTION-SCREEN BEGIN OF BLOCK ADD2 WITH FRAME TITLE TEXT-T02 NO INTERVALS.
+
+PARAMETERS: P_APE1    TYPE C LENGTH 20 , " Primer Apellido
+            P_APE2    TYPE C LENGTH 20 , " Segundo Apellido
+            P_NOMBRE  TYPE C LENGTH 30 . " Nombre
+
+SELECTION-SCREEN SKIP.
+
+* fecha de nacimiento.
+PARAMETERS P_FECHAN TYPE SYDATUM.
+
+* No de documento identificativo
+PARAMETERS P_DNI TYPE C LENGTH 15 OBLIGATORY.
+
+* Domicilio
+PARAMETERS P_domici TYPE C LENGTH 50.
+
+* Correo electronico
+PARAMETERS P_MAIL TYPE C LENGTH 30.
+
+
+*&---------------------------------------------------------------------*
+*&DATOS RELATIVOS A LA SOLICITUD DE ALTA
+*&---------------------------------------------------------------------*
+
+
+
+*&---------------------------------------------------------------------*
+*&TIPO DE CONTRATO Y BENEFICIOS
+*&---------------------------------------------------------------------*
+SELECTION-SCREEN END OF BLOCK ADD2.
+
+SELECTION-SCREEN SKIP.
+
+SELECTION-SCREEN BEGIN OF BLOCK ADD3 WITH FRAME TITLE TEXT-T03.
+
+SELECTION-SCREEN SKIP.
+* Tipo de contrato
+
+SELECTION-SCREEN BEGIN OF BLOCK ADD4 WITH FRAME TITLE TEXT-T04 .
+PARAMETERS: P_CNTR_i RADIOBUTTON GROUP   CNTR ,    " Indefinido
+            P_cntr_t RADIOBUTTON GROUP   CNTR ,    " Temporal
+            P_CNTR_P RADIOBUTTON GROUP   CNTR .    " Prácticas
+
+SELECTION-SCREEN END OF BLOCK ADD4.
+
+SELECTION-SCREEN SKIP.
+
+SELECTION-SCREEN BEGIN OF BLOCK ADD5 WITH FRAME TITLE TEXT-T05.
+
+SELECTION-SCREEN BEGIN OF LINE.
+
+  SELECTION-SCREEN POSITION 18.
+* Beneficios
+
+PARAMETERS P_TIK_R TYPE C AS CHECKBOX DEFAULT 'X'.
+SELECTION-SCREEN COMMENT (22) C_TIK_R.
+
+PARAMETERS P_SEG_M TYPE C AS CHECKBOX.
+SELECTION-SCREEN COMMENT (22) C_SEG_M.
+
+PARAMETERS P_FRM_P TYPE C AS CHECKBOX.
+SELECTION-SCREEN COMMENT (22) C_FRM_P.
+
+SELECTION-SCREEN END OF LINE.
+
+SELECTION-SCREEN END OF BLOCK ADD5.
+
+*&---------------------------------------------------------------------*
+*&DATOS RELATIVOS A LA ACTIVIDAD LABORAL
+*&---------------------------------------------------------------------*
+
+SELECTION-SCREEN SKIP.
+
+PARAMETERS: P_HORAS   TYPE I,
+            P_SAL_M   TYPE I.
+
+* Fecha de alta
+
+PARAMETERS P_FECHAA TYPE SYDATUM.
+
+SELECTION-SCREEN SKIP.
+
+* Permisos
+SELECTION-SCREEN BEGIN OF BLOCK ADD6 WITH FRAME TITLE TEXT-T06 NO INTERVALS.
+SELECT-OPTIONS: S_PROG FOR TRDIR-NAME,    " Programas
+                S_TCODE FOR TSTC-TCODE.   " Códigos de transacción
+
+SELECTION-SCREEN SKIP 2.
+
+SELECTION-SCREEN END OF BLOCK ADD6.
+
+SELECTION-SCREEN END OF BLOCK ADD3.
+
+SELECTION-SCREEN SKIP.
+
+
+SELECTION-SCREEN SKIP.
+
+SELECTION-SCREEN END OF BLOCK ADD1.

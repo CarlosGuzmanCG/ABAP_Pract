@@ -1,0 +1,10 @@
+@Metadata.layer: #INDUSTRY
+annotate view ZB_16_AIRL_M_ALFA02 
+    with parameters 
+        @EndUserText.label: 'AIRLINE CODE'
+            p_airlinecode
+{-- COLUMNAS
+    @UI.dataPoint.title: 'MDE - AIRLINE CODE' --ANOTACION
+    @UI.dataPoint.description: 'MDE INDUSTRY - DESCRIPTION' --ANOTACION
+    AIRLINE;
+}

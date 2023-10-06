@@ -1,0 +1,9 @@
+@EndUserText.label: 'ACCESS CONTROL - AIRLINE'
+@MappingRole: true
+define role ZAC_01_AIRL_ALFA02 {
+    grant select on ZB_13_AIRL_ALFA02
+                 -- filtro a traves del campo del cds  "SE21" 
+           where ( Airline ) = aspect pfcg_auth(s_carrid, carrid, actvt = '03' ) and
+           AirlineLocalCurrency = 'EUR';
+                 
+}

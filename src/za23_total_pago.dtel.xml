@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZA23_TOTAL_PAGO</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/SAPXCQM/PRICE</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>12</SCRLEN3>
+    <DDTEXT>FULL PAYMENT</DDTEXT>
+    <REPTEXT>FULL PAYMENT</REPTEXT>
+    <SCRTEXT_S>FULL PAYME</SCRTEXT_S>
+    <SCRTEXT_M>FULL PAYMENT</SCRTEXT_M>
+    <SCRTEXT_L>FULL PAYMENT</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>PAGO TOTAL</DDTEXT>
+     <REPTEXT>PAGO TOTAL</REPTEXT>
+     <SCRTEXT_S>PAGO TOTAL</SCRTEXT_S>
+     <SCRTEXT_M>PAGO TOTAL</SCRTEXT_M>
+     <SCRTEXT_L>PAGO TOTAL</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

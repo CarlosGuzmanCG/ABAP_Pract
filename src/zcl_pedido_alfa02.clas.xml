@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_PEDIDO_ALFA02</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>PEDIDOS</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <CLSSHAREDMEMORY>X</CLSSHAREDMEMORY>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>FECHA_CREACION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fecha de sistema</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_FECHA_CREACION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>get fecha de creacion</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_HORA_PEDIDO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>get hora pedido</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HORA_PEDIDO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>H.sistema</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_FECHA_CREACION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>set fecha creacion</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_HORA_PEDIDO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>set hora pedido</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_FECHA_CREACION</CMPNAME>
+     <SCONAME>FECHA_CREACION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fecha de sistema</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_HORA_PEDIDO</CMPNAME>
+     <SCONAME>HORA_PEDIDO</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>H.sistema</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_FECHA_CREACION</CMPNAME>
+     <SCONAME>FECHA_CREACION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fecha de sistema</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_HORA_PEDIDO</CMPNAME>
+     <SCONAME>HORA_PEDIDO</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>H.sistema</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

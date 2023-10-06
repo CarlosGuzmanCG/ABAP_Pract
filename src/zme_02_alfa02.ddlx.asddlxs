@@ -1,0 +1,11 @@
+@Metadata.layer: #PARTNER
+annotate view ZB_11_ALFA02
+    with 
+{
+    @UI.dataPoint.title : 'MDE Partner Title - Material Code'
+    @UI.dataPoint.description : 'MDE Partner Description - Material Code'
+    MATERIAL;
+    @UI.dataPoint.title : 'MDE Partner Title - Maintenance Status' 
+    @UI.dataPoint.description : 'MDE Partner Description - Maintenance Status'
+    MAINTENANCESTATUS;
+}

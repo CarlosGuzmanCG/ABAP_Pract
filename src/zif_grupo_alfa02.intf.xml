@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_GRUPO_ALFA02</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>GRUPO USUARIO</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>AVISAR_CANAL_DISTRIBUICION</CMPNAME>
+     <SCONAME>CANAL_DIST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Canal de distribución</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_METODO</CMPNAME>
+     <SCONAME>DEST_MERCANCIA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Grupo de clientes</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

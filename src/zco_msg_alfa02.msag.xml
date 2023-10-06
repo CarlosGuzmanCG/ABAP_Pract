@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCO_MSG_ALFA02</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Class message</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCO_MSG_ALFA02</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCO_MSG_ALFA02</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Datos guardados en la base de datos</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCO_MSG_ALFA02</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>El vehiculo no tienen cliente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCO_MSG_ALFA02</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Lector del libro</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,11 @@
+@Metadata.layer: #CUSTOMER
+annotate view ZB_01_ALFA02 
+    with parameters
+        @EndUserText.label : 'Creation date - From'
+        p_createdAt_begin,
+        @EndUserText.label : 'Creation date - Until'
+        p_createdAt_end 
+{
+    @EndUserText.quickInfo : 'Material Code'
+    Material;
+}

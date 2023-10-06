@@ -1,0 +1,34 @@
+class ZCX_AUTORIZACION_ALFA02 definition
+  public
+  inheriting from CX_STATIC_CHECK
+  create public .
+
+public section.
+
+  constants ZCX_AUTORIZACION_ALFA02 type SOTR_CONC value '000C292775F91EDDAAF9AE455E5B51F9' ##NO_TEXT.
+  constants USUARIO_INACTIVO type SOTR_CONC value '000C292775F91EDDAAFBE8EA98DCD436' ##NO_TEXT.
+
+  methods CONSTRUCTOR
+    importing
+      !TEXTID like TEXTID optional
+      !PREVIOUS like PREVIOUS optional .
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS ZCX_AUTORIZACION_ALFA02 IMPLEMENTATION.
+
+
+  method CONSTRUCTOR.
+CALL METHOD SUPER->CONSTRUCTOR
+EXPORTING
+TEXTID = TEXTID
+PREVIOUS = PREVIOUS
+.
+ IF textid IS INITIAL.
+   me->textid = ZCX_AUTORIZACION_ALFA02 .
+ ENDIF.
+  endmethod.
+ENDCLASS.

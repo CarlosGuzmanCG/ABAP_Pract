@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZA23_NUM_TELEFONO2</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZA23_NUM_TELEFONO2</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>TELEPHONE NUMBER 2</DDTEXT>
+    <REPTEXT>Telephone number 2</REPTEXT>
+    <SCRTEXT_S>Tel 2</SCRTEXT_S>
+    <SCRTEXT_M>Telephone number 2</SCRTEXT_M>
+    <SCRTEXT_L>Telephone number 2</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>NO TELEFONO 2</DDTEXT>
+     <REPTEXT>No Tel 2</REPTEXT>
+     <SCRTEXT_S>Tel 2</SCRTEXT_S>
+     <SCRTEXT_M>No Tel 2</SCRTEXT_M>
+     <SCRTEXT_L>No Tel 2</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

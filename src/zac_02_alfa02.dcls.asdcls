@@ -1,0 +1,10 @@
+@EndUserText.label: 'Access Control - INH'
+@MappingRole: true
+define role ZAC_02_ALFA02 {
+    grant
+        select
+            on
+                ZB_11_ALFA02
+                        inherit ZAC_01_ALFA02
+                            or PurchasingGroup = 'LF1';
+}

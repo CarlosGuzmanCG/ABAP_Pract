@@ -1,0 +1,7 @@
+@EndUserText.label: 'Ejercicio - Access Control'
+@MappingRole: true
+define role ZAC_01_ALFA02 {
+    grant select on ZB_11_ALFA02
+           where (Plant) = aspect pfcg_auth( M_MATE_WRK, WERKS , actvt = '02'  ) and 
+            PurchasingGroup = 'R10';
+}

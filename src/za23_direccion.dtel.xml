@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZA23_DIRECCION</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>ZA23_DIRECCION</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>ADDRESS</DDTEXT>
+    <REPTEXT>ADDRESS</REPTEXT>
+    <SCRTEXT_S>ADDRESS</SCRTEXT_S>
+    <SCRTEXT_M>ADDRESS</SCRTEXT_M>
+    <SCRTEXT_L>ADDRESS</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>DIRECCION</DDTEXT>
+     <REPTEXT>DIRECCION</REPTEXT>
+     <SCRTEXT_S>DIRECCION</SCRTEXT_S>
+     <SCRTEXT_M>DIRECCION</SCRTEXT_M>
+     <SCRTEXT_L>DIRECCION</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

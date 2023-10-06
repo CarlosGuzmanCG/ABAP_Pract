@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SHLP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD30V>
+    <SHLPNAME>ZAYUDC_ALFA02</SHLPNAME>
+    <ELEMEXI>X</ELEMEXI>
+    <NOFIELDS>X</NOFIELDS>
+   </DD30V>
+   <DD31V_TABLE>
+    <DD31V>
+     <SHLPNAME>ZAYUDC_ALFA02</SHLPNAME>
+     <SUBSHLP>ZAB1_ALFA02</SUBSHLP>
+     <SHPOSITION>0001</SHPOSITION>
+     <VIASHLP>ZAYUDC_ALFA02</VIASHLP>
+    </DD31V>
+    <DD31V>
+     <SHLPNAME>ZAYUDC_ALFA02</SHLPNAME>
+     <SUBSHLP>ZAB2_ALFA02</SUBSHLP>
+     <SHPOSITION>0002</SHPOSITION>
+     <VIASHLP>ZAYUDC_ALFA02</VIASHLP>
+    </DD31V>
+   </DD31V_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

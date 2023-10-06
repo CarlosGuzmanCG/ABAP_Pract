@@ -1,0 +1,10 @@
+@EndUserText.label: 'ACCESS CONTROL - AIRLINE INHERITANCE'
+@MappingRole: true
+define role ZAC_02_AIRL_INHERITANCE_ALFA02 
+{
+    grant select on ZB_13_AIRL_ALFA02 
+        inherit 
+            ZAC_01_AIRL_ALFA02 
+                -- filtros
+                or AirlineLocalCurrency = 'USD' ;          
+}

@@ -1,0 +1,15 @@
+@Metadata.layer: #CUSTOMER -- capa
+annotate view ZB_15_AIRL_M_ALFA02
+    with 
+{ -- anadir mas anoaciones que no existen en el cds, se pueden sobreescribir
+    @UI.dataPoint.title: 'MDE customer- AIRLINE CODE' --sobreescritura
+    @UI.dataPoint.description: 'mde customer - description'
+    @UI.dataPoint.longDescription: 'mde customer - long description'
+    AIRLINE;
+}
+
+-- 1 - customer 
+-- 2 - partner
+-- 3 - industry
+-- 4 - localization
+-- 5 - core

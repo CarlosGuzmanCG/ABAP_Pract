@@ -1,0 +1,98 @@
+*&---------------------------------------------------------------------*
+*& Report Z_CALCULADORA_ALFA02
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT Z_CALCULADORA_ALFA02.
+
+SELECTION-SCREEN BEGIN OF BLOCK SCREEN1 WITH FRAME TITLE TITLE1.
+
+  SELECTION-SCREEN SKIP 2.
+
+SELECTION-SCREEN BEGIN OF BLOCK SCREEN2 WITH FRAME TITLE TITLE2.
+
+SELECTION-SCREEN BEGIN OF LINE.
+
+  SELECTION-SCREEN POSITION 25.
+
+    SELECTION-SCREEN COMMENT (15) c_nD1.
+    PARAMETERS P_DA1 TYPE I.
+
+    PARAMETERS P_Res TYPE I.
+
+    SELECTION-SCREEN COMMENT (15) c_nD2.
+    PARAMETERS P_DA2 TYPE I.
+
+
+SELECTION-SCREEN END OF LINE.
+
+SELECTION-SCREEN END OF BLOCK SCREEN2.
+
+SELECTION-SCREEN SKIP 2.
+
+SELECTION-SCREEN BEGIN OF BLOCK SCREEN3 WITH FRAME TITLE TITLE3.
+
+SELECTION-SCREEN BEGIN OF LINE.
+
+SELECTION-SCREEN POSITION 30.
+
+  PARAMETERS: rb_S RADIOBUTTON GROUP btCa DEFAULT  'X'.
+              SELECTION-SCREEN COMMENT (10) c_reS.
+
+  PARAMETERS: rb_R RADIOBUTTON GROUP btCa.
+              SELECTION-SCREEN COMMENT (10) c_reR.
+
+  PARAMETERS: rb_M RADIOBUTTON GROUP btCa.
+              SELECTION-SCREEN COMMENT (10) c_reM.
+
+  PARAMETERS: rb_D RADIOBUTTON GROUP btCa.
+              SELECTION-SCREEN COMMENT (10) c_reD.
+
+  SELECTION-SCREEN END OF LINE.
+
+SELECTION-SCREEN END OF BLOCK SCREEN3.
+
+SELECTION-SCREEN SKIP 2.
+
+SELECTION-SCREEN END OF BLOCK SCREEN1.
+
+
+  if P_DA1 eq ''.
+      MESSAGE  E004(ZALFA02).
+  endif.
+
+  if P_DA2 eq ''.
+      MESSAGE  E004(ZALFA02).
+  endif.
+
+  CASE 'X'.
+    WHEN rb_S.
+      P_RES = P_DA1 + P_DA2.
+      " MESSAGE 'ASAS' TYPE I.
+    WHEN rb_R.
+      rb_R = P_DA1 - P_DA2.
+    WHEN rb_M.
+      rb_R = P_DA1 - P_DA2.
+    WHEN rb_D.
+      rb_R = P_DA1 - P_DA2.
+  ENDCASE.
+
+INITIALIZATION.
+
+TITLE1 = 'Calculadora básica'.
+
+TITLE2 = 'Valores'.
+
+TITLE3 = 'Opciones'.
+
+c_nD1 = 'Ingrese dato 1'.
+
+c_nD2 = 'Ingrese dato 2'.
+
+c_reS = 'Suma'.
+
+c_reR = 'Resta'.
+
+c_reM = 'Multiplicación'.
+
+c_reD = 'División'.

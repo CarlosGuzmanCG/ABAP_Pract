@@ -1,0 +1,11 @@
+@EndUserText.label: 'Access Control - Impedir acceso'
+@MappingRole: true
+define role ZAC_04_ALFA02 {
+    grant
+        select
+            on
+               ZB_12_ALFA02
+                    where
+                        Material IS NOT NULL AND Plant IS NOT NULL;
+                        
+}

@@ -1,0 +1,8 @@
+@EndUserText.label: 'ACCESS CONTROL - AIRLINE UNRESTRICTED'
+@MappingRole: true
+define role ZAC_03_AIRL_UNRESTR_ALFA02 {
+    grant
+        select
+            on
+                ZB_13_AIRL_ALFA02;                        
+}

@@ -1,0 +1,11 @@
+@EndUserText.label: 'ACCESS CONTROL - AIRLINE INHIBITING'
+@MappingRole: true
+define role ZAC_04AIRL_INHIBITING_ALFA02 {
+    grant
+        select
+            on
+                ZB_14_AIRL_ALFA02
+                    where
+                    // condition that is always false
+                        AIRLINE is null and airline is not null;  
+}

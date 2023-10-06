@@ -1,0 +1,9 @@
+@EndUserText.label: 'ACCESS CONTROL NOT RESTRICTION'
+@MappingRole: true
+define role ZAC_03_ALFA02 {
+    grant
+        select
+            on
+               ZB_11_ALFA02;
+                        
+}
